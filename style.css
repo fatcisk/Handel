@@ -69,6 +69,13 @@ i:active {
   transform: scale(1.2);
 }
 
+.loader {
+  width: 10000px;
+  background-color: black;
+  height: 10000px;
+  z-index: 19;
+}
+
 .basic-section-active,
 .jacket-section-active,
 .jumper-section-active {
