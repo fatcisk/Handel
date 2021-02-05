@@ -7,11 +7,6 @@ const jacketButtonActive = document.querySelector(".jacket-section");
 const jumperButtonActive = document.querySelector(".jumper-section");
 let clickStat = 1;
 
-window.onload = function () {
-  var el = document.querySelector(".loader");
-  el.style.display = "none";
-};
-
 basicButtonActive.addEventListener("click", function () {
   if (clicks === 0) {
     let nameClick = clicks + 11;
