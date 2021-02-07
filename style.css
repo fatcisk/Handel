@@ -61,6 +61,14 @@ i:active {
   transform: scale(1.2);
 }
 
+.colors {
+  position: relative;
+  top: 890px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.color,
 .basic-section,
 .jacket-section,
 .jumper-section {
@@ -75,12 +83,14 @@ i:active {
   transition: 0.3s;
 }
 
+.color:hover,
 .basic-section:hover,
 .jacket-section:hover,
 .jumper-section:hover {
   transform: scale(1.1);
 }
 
+.color:active,
 .basic-section:active,
 .jacket-section:active,
 .jumper-section:active {
